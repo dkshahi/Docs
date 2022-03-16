@@ -48,6 +48,7 @@ You can follow same procedure in the official  AWS document [Getting started wit
    eksctl create cluster --name cloudfreak-cluster \
       --region ap-south-1 \
    --node-type t2.medium \
+   --zones ap-south-1a,ap-south-1b
     ```
 
 5. To delete the EKS clsuter 
